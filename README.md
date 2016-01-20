@@ -22,7 +22,7 @@ pod "FGCL"
 
 ## Author
 
-Fernando Giardina, fernando.giardina@etermax.com
+Fernando Giardina
 
 ## License
 
