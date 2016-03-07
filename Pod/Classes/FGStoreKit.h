@@ -120,5 +120,5 @@
 
 - (void)comprar: (NSString *)productID;
 - (void)restoreAll;
-- (NSString *)getReceipt;
++ (NSString *)getReceipt;
 @end

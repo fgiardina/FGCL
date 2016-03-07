@@ -147,7 +147,7 @@
 }
 
 
-- (NSString *)getReceipt {
++ (NSString *)getReceipt {
     
     NSURL *receiptURL = [[NSBundle mainBundle] appStoreReceiptURL];
     NSData *receipt = [NSData dataWithContentsOfURL:receiptURL];
