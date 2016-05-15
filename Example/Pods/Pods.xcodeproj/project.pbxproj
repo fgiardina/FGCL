@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017E462E1C500377003EC6FB /* FGCommonLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46221C500377003EC6FB /* FGCommonLibrary.h */; };
-		017E462F1C500377003EC6FB /* FGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46231C500377003EC6FB /* FGMacros.h */; };
-		017E46301C500377003EC6FB /* FGStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46241C500377003EC6FB /* FGStoreKit.h */; };
+		017E462E1C500377003EC6FB /* FGCommonLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46221C500377003EC6FB /* FGCommonLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		017E462F1C500377003EC6FB /* FGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46231C500377003EC6FB /* FGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		017E46301C500377003EC6FB /* FGStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46241C500377003EC6FB /* FGStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		017E46311C500377003EC6FB /* FGStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E46251C500377003EC6FB /* FGStoreKit.m */; };
-		017E46321C500377003EC6FB /* FGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46261C500377003EC6FB /* FGUtils.h */; };
+		017E46321C500377003EC6FB /* FGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46261C500377003EC6FB /* FGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		017E46331C500377003EC6FB /* FGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E46271C500377003EC6FB /* FGUtils.m */; };
-		017E46341C500377003EC6FB /* NSString+helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46281C500377003EC6FB /* NSString+helper.h */; };
+		017E46341C500377003EC6FB /* NSString+helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E46281C500377003EC6FB /* NSString+helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		017E46351C500377003EC6FB /* NSString+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E46291C500377003EC6FB /* NSString+helper.m */; };
-		017E46361C500377003EC6FB /* UIImageView+helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E462A1C500377003EC6FB /* UIImageView+helper.h */; };
+		017E46361C500377003EC6FB /* UIImageView+helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E462A1C500377003EC6FB /* UIImageView+helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		017E46371C500377003EC6FB /* UIImageView+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E462B1C500377003EC6FB /* UIImageView+helper.m */; };
-		017E46381C500377003EC6FB /* UIView+helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E462C1C500377003EC6FB /* UIView+helper.h */; };
+		017E46381C500377003EC6FB /* UIView+helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E462C1C500377003EC6FB /* UIView+helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		017E46391C500377003EC6FB /* UIView+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E462D1C500377003EC6FB /* UIView+helper.m */; };
 		024569AC9E560B9E9DFA4CEF41C1ED68 /* Pods-FGCL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3B5287759BCD93BA61756285AB4CE5 /* Pods-FGCL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AFD25A3C0DC3679CEFC80836CEA1713 /* Pods-FGCL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD514C5F49E86F1DDF9FA0ABBD60581 /* Pods-FGCL_Tests-dummy.m */; };
@@ -506,7 +506,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FGCL/FGCL-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FGCL/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FGCL/FGCL.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -577,7 +577,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FGCL/FGCL-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FGCL/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FGCL/FGCL.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
